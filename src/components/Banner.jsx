@@ -36,22 +36,22 @@ const Banner = () => {
       <div className='flex flex-wrap gap-4'>
         <img
           className='w-[408px] h-[271px] top-[146px] left-[733px] rounded-md'
-          src='/public/Image/BannerImg1.png'
+          src='/Image/BannerImg1.png'
           alt='#'
         />
         <img
           className='w-[180px] h-[271px] top-[146px] left-[1159px] rounded-md'
-          src='/public/Image/BannerImg2.avif'
+          src='/Image/BannerImg2.avif'
           alt='#'
         />
         <img
           className='w-[246px] h-[271px] top-[439px] left-[733px] rounded-md'
-          src='/public/Image/BannerImg3.png'
+          src='/Image/BannerImg3.png'
           alt='#'
         />
         <img
           className='w-[345px] h-[164px] top-[439px] left-[994px] rounded-md'
-          src='/public/Image/BannerImg4.png'
+          src='/Image/BannerImg4.png'
           alt='#'
         />
       </div>
