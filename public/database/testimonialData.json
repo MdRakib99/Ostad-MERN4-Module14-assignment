@@ -2,42 +2,42 @@
   {
     "id": 1,
     "name": "ALICE BRADLEY",
-    "img": "/public/Image/testi1.webp",
+    "img": "/Image/testi1.webp",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
     "skill": "Backend Developer"
   },
   {
     "id": 2,
     "name": "ALICE BRADLEY",
-    "img": "/public/Image/testi2.jpg",
+    "img": "/Image/testi2.jpg",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
     "skill": "Backend Developer"
   },
   {
     "id": 3,
     "name": "ALICE BRADLEY",
-    "img": "/public/Image/testi3.webp",
+    "img": "/Image/testi3.webp",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
     "skill": "Backend Developer"
   },
   {
     "id": 4,
     "name": "ALICE BRADLEY",
-    "img": "/public/Image/testi4.avif",
+    "img": "/Image/testi4.avif",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
     "skill": "Backend Developer"
   },
   {
     "id": 5,
     "name": "ALICE BRADLEY",
-    "img": "/public/Image/testi5.avif",
+    "img": "/Image/testi5.avif",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
     "skill": "Backend Developer"
   },
   {
     "id": 6,
     "name": "ALICE BRADLEY",
-    "img": "/public/Image/testi6.jpg",
+    "img": "/Image/testi6.jpg",
     "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
     "skill": "Backend Developer"
   }

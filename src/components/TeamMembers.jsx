@@ -2,9 +2,9 @@ import React from "react";
 
 const TeamMembers = () => {
   let data = [
-    { id: 1, img: "/public/Image/member1.jpg", name: "Devon Lane" },
-    { id: 2, img: "/public/Image/member2.jpg", name: "Alex Lov" },
-    { id: 3, img: "/public/Image/member3.webp", name: "Danny Bailey" },
+    { id: 1, img: "/Image/member1.jpg", name: "Devon Lane" },
+    { id: 2, img: "/Image/member2.jpg", name: "Alex Lov" },
+    { id: 3, img: "/Image/member3.webp", name: "Danny Bailey" },
   ];
   return (
     <div>

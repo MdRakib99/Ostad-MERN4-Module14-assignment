@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetchNavItems } from "../APIRequest/APIRequest";
+
 import { NavLink } from "react-router-dom";
 
 const Layout = () => {

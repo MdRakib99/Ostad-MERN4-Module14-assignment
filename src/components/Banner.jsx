@@ -3,16 +3,16 @@ import React from "react";
 const Banner = () => {
   const data = [
     {
-      img: "/public/Image/BannerImg1.png",
+      img: "/Image/BannerImg1.png",
     },
     {
-      img: "/public/Image/BannerImg2.avif",
+      img: "/Image/BannerImg2.avif",
     },
     {
-      img: "/public/Image/BannerImg3.png",
+      img: "/Image/BannerImg3.png",
     },
     {
-      img: "/public/Image/BannerImg4.png",
+      img: "/Image/BannerImg4.png",
     },
   ];
   return (

@@ -3,19 +3,19 @@ import React from "react";
 const Slide = () => {
   const data = [
     {
-      img: "/public/Image/google.webp",
+      img: "/Image/google.webp",
     },
     {
-      img: "/public/Image/Trello.webp",
+      img: "/Image/Trello.webp",
     },
     {
-      img: "/public/Image/monday.png",
+      img: "/Image/monday.png",
     },
     {
-      img: "/public/Image/notion.png",
+      img: "/Image/notion.png",
     },
     {
-      img: "/public/Image/slack.webp",
+      img: "/Image/slack.webp",
     },
   ];
   return (

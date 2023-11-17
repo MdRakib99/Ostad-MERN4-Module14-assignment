@@ -4,27 +4,27 @@ const ProjectImage = () => {
   let data = [
     {
       title: "Lorem ipsum dolor sit consectutar",
-      img: "/public/Image/project1.png",
+      img: "/Image/project1.png",
     },
     {
       title: "Lorem ipsum dolor sit consectutar",
-      img: "/public/Image/project2.png",
+      img: "/Image/project2.png",
     },
     {
       title: "Lorem ipsum dolor sit consectutar",
-      img: "/public/Image/project3.png",
+      img: "/Image/project3.png",
     },
     {
       title: "Lorem ipsum dolor sit consectutar",
-      img: "/public/Image/project4.jpg",
+      img: "/Image/project4.jpg",
     },
     {
       title: "Lorem ipsum dolor sit consectutar",
-      img: "/public/Image/project5.jpg",
+      img: "/Image/project5.jpg",
     },
     {
       title: "Lorem ipsum dolor sit consectutar",
-      img: "/public/Image/project6.jpg",
+      img: "/Image/project6.jpg",
     },
   ];
   return (

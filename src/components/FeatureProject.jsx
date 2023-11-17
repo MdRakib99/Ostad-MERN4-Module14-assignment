@@ -21,7 +21,7 @@ const FeatureProject = () => {
         <div className='row-span-2  ml-24 w-96 '>
           <img
             className='w-96 h-[292px] border rounded-lg'
-            src='/public/Image/rectangle1.png'
+            src='/Image/rectangle1.png'
             alt='#'
           />
           <p className='text-xs'>App Design - June 20, 2022</p>
@@ -30,7 +30,7 @@ const FeatureProject = () => {
         <div className='w-44 ml-40'>
           <img
             className='w-44 h-38 border rounded-lg'
-            src='/public/Image/rectangle2.jpg'
+            src='/Image/rectangle2.jpg'
             alt='#'
           />
           <p className='text-xs'>App Design - June 20, 2022</p>
@@ -39,7 +39,7 @@ const FeatureProject = () => {
         <div className='w-44  mr-10'>
           <img
             className='w-44 h-38  border rounded-lg'
-            src='/public/Image/rectangle3.jpg'
+            src='/Image/rectangle3.jpg'
             alt='#'
           />
           <p className='text-xs'>App Design - June 20, 2022</p>
@@ -50,7 +50,7 @@ const FeatureProject = () => {
         <div className='w-44  ml-40'>
           <img
             className='w-44 h-38 border rounded-lg'
-            src='/public/Image/rectangle4.jpg'
+            src='/Image/rectangle4.jpg'
             alt='#'
           />
           <p className='text-xs'>App Design - June 20, 2022</p>
@@ -61,7 +61,7 @@ const FeatureProject = () => {
         <div className='w-44 '>
           <img
             className='w-44 h-38 border rounded-lg'
-            src='/public/Image/rectangle5.jpg'
+            src='/Image/rectangle5.jpg'
             alt='#'
           />
           <p className='text-xs'>App Design - June 20, 2022</p>

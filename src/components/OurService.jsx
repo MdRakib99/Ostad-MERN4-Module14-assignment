@@ -34,28 +34,28 @@ const OurService = () => {
             <div className='rounded-lg border shadow-lg  w-80 h-40'>
               <img
                 className='w-[318px]  h-[164px] object-cover rounded-lg'
-                src='/public/Image/service1.jpg'
+                src='/Image/service1.jpg'
                 alt='#'
               />
             </div>
             <div className='rounded-lg  border shadow-lg  w-40 h-[164px] '>
               <img
                 className='w-[143px]  h-[164px] object-cover rounded-lg'
-                src='/public/Image/service2.jpg'
+                src='/Image/service2.jpg'
                 alt='#'
               />
             </div>
             <div className='rounded-md border shadow-lg w-fit '>
               <img
                 className='w-[257px]  h-[263px] object-cover rounded-lg'
-                src='/public/Image/service3.webp'
+                src='/Image/service3.webp'
                 alt='#'
               />
             </div>
             <div className='rounded-md  border shadow-lg  w-60 h-70'>
               <img
                 className='w-[248px]  h-[263px] object-cover rounded-lg'
-                src='/public/Image/service4.avif'
+                src='/Image/service4.avif'
                 alt='#'
               />
             </div>
@@ -65,28 +65,28 @@ const OurService = () => {
               <div className='rounded-lg border shadow-lg  w-80 h-40'>
                 <img
                   className='w-[318px]  h-[164px] object-cover rounded-lg'
-                  src='/public/Image/service1.jpg'
+                  src='/Image/service1.jpg'
                   alt='#'
                 />
               </div>
               <div className='rounded-lg  border shadow-lg  w-40 h-[164px] '>
                 <img
                   className='w-[143px]  h-[164px] object-cover rounded-lg'
-                  src='/public/Image/service2.jpg'
+                  src='/Image/service2.jpg'
                   alt='#'
                 />
               </div>
               <div className='rounded-md border shadow-lg w-fit '>
                 <img
                   className='w-[257px]  h-[263px] object-cover rounded-lg'
-                  src='/public/Image/service3.webp'
+                  src='/Image/service3.webp'
                   alt='#'
                 />
               </div>
               <div className='rounded-md  border shadow-lg  w-60 h-70'>
                 <img
                   className='w-[248px]  h-[263px] object-cover rounded-lg'
-                  src='/public/Image/service4.avif'
+                  src='/Image/service4.avif'
                   alt='#'
                 />
               </div>
