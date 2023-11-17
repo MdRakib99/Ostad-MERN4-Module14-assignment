@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "navTitle": "Team"
+  },
+  {
+    "id": "2",
+    "navTitle": "Service"
+  },
+  {
+    "id": "3",
+    "navTitle": "Project"
+  },
+  {
+    "id": "4",
+    "navTitle": "Testimonial"
+  }
+]
