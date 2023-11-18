@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "/Image/rectangle1.png",
+      "date": "June 20, 2022",
+      "title": "App Redesign",
+      "description": "App Design - June 20, 2022"
+    },
+    {
+      "id": 2,
+      "image": "/Image/rectangle2.jpg",
+      "date": "June 20, 2022",
+      "title": "App Redesign",
+      "description": "App Design - June 20, 2022"
+    },
+    {
+      "id": 3,
+      "image": "/Image/rectangle3.jpg",
+      "date": "June 20, 2022",
+      "title": "Redesign channel website landing page",
+      "description": "App Design - June 20, 2022"
+    },
+    {
+      "id": 4,
+      "image": "/Image/rectangle4.jpg",
+      "date": "June 20, 2022",
+      "title": "Redesign channel website landing page",
+      "description": "App Design - June 20, 2022"
+    },
+    {
+      "id": 5,
+      "image": "/Image/rectangle5.jpg",
+      "date": "June 20, 2022",
+      "title": "Redesign channel website landing page",
+      "description": "App Design - June 20, 2022"
+    }
+  ]
+}

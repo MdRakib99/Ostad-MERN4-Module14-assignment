@@ -1,74 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const FeatureProject = () => {
-  return (
-    <div className='h-[75vh]'>
-      <div className='p-5'>
-        <h3 className='text-[#20B15A] text-sm font-semibold'>
-          FEATURE PROJECT
-        </h3>
-        <div className=' py-6'>
-          <p className='font-bold text-[#000000] text-lg'>
-            We provide the Perfect Solution
-          </p>
-          <p className='font-bold text-[#000000] text-lg'>
-            to your business growth
-          </p>
-        </div>
-      </div>
+  const [featuredData, setFeaturedData] = useState(null);
 
-      <div className='grid grid-cols-3 grid-rows-2 mr-60'>
-        <div className='row-span-2  ml-24 w-96 '>
-          <img
-            className='w-96 h-[292px] border rounded-lg'
-            src='/Image/rectangle1.png'
-            alt='#'
-          />
-          <p className='text-xs'>App Design - June 20, 2022</p>
-          <p className='font-semibold text-[#000000]'>App Redesign</p>
-        </div>
-        <div className='w-44 ml-40'>
-          <img
-            className='w-44 h-38 border rounded-lg'
-            src='/Image/rectangle2.jpg'
-            alt='#'
-          />
-          <p className='text-xs'>App Design - June 20, 2022</p>
-          <p className='font-semibold text-[#000000]'>App Redesign</p>
-        </div>
-        <div className='w-44  mr-10'>
-          <img
-            className='w-44 h-38  border rounded-lg'
-            src='/Image/rectangle3.jpg'
-            alt='#'
-          />
-          <p className='text-xs'>App Design - June 20, 2022</p>
-          <p className='font-semibold text-[#000000]'>
-            Redesign channel website landing page
-          </p>
-        </div>
-        <div className='w-44  ml-40'>
-          <img
-            className='w-44 h-38 border rounded-lg'
-            src='/Image/rectangle4.jpg'
-            alt='#'
-          />
-          <p className='text-xs'>App Design - June 20, 2022</p>
-          <p className='font-semibold text-[#000000]'>
-            Redesign channel website landing page
-          </p>
-        </div>
-        <div className='w-44 '>
-          <img
-            className='w-44 h-38 border rounded-lg'
-            src='/Image/rectangle5.jpg'
-            alt='#'
-          />
-          <p className='text-xs'>App Design - June 20, 2022</p>
-          <p className='font-semibold text-[#000000]'>
-            Redesign channel website landing page
-          </p>
-        </div>
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/database/featuredItem.json");
+        const data = await response.json();
+        setFeaturedData(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (!featuredData) {
+    return <div className='text-center mt-8'>Loading...</div>;
+  }
+
+  return (
+    <div className='container mx-auto p-8'>
+      <h2 className='text-3xl font-bold text-[#20B15A] mb-6'>
+        FEATURE PROJECT
+      </h2>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        {featuredData.projects.map((project) => (
+          <div key={project.id} className='bg-white p-6 rounded-lg shadow-md'>
+            <img
+              className='w-full h-48 object-cover mb-4 rounded-md'
+              src={project.image}
+              alt='#'
+            />
+            <p className='text-xs text-gray-500 mb-2'>{project.description}</p>
+            <p className='text-lg font-semibold text-[#000000] mb-4'>
+              {project.title}
+            </p>
+            <p className='text-xs text-gray-500'>{project.date}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

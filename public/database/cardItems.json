@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "GrGroup",
+    "count": 240452,
+    "label": "Followers"
+  },
+  {
+    "icon": "AiOutlineLike",
+    "count": 6300,
+    "label": "Solved problems"
+  },
+  {
+    "icon": "HiOutlineEmojiHappy",
+    "count": 2500,
+    "label": "Happy customers"
+  },
+  {
+    "icon": "BsQrCodeScan",
+    "count": 360452,
+    "label": "Projects"
+  }
+]

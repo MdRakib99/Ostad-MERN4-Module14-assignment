@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "image": "/Image/service1.jpg",
+      "title": "BUILD AND LAUNCH WITHOUT PROBLEMS",
+      "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries"
+    },
+    {
+      "id": 2,
+      "image": "/Image/service2.jpg",
+      "title": "BUILD AND LAUNCH WITHOUT PROBLEMS",
+      "description": "Improve your workflow and streamline processes with our innovative solutions"
+    },
+    {
+      "id": 3,
+      "image": "/Image/service3.webp",
+      "title": "BUILD AND LAUNCH WITHOUT PROBLEMS",
+      "description": "Enhance your online presence with our cutting-edge web design services"
+    },
+    {
+      "id": 4,
+      "image": "/Image/service4.avif",
+      "title": "BUILD AND LAUNCH WITHOUT PROBLEMS",
+      "description": "Optimize your digital marketing strategy and reach a wider audience"
+    }
+  ]
+}

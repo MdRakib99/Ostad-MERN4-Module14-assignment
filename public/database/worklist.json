@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "LuActivitySquare",
+    "title": "Grow Your Business",
+    "description": "We help identify the best ways to improve your business",
+    "link": "/learn-more1"
+  },
+  {
+    "icon": "RiHeart2Line",
+    "title": "Improve brand loyalty",
+    "description": "We help identify the best ways to improve your business",
+    "link": "/learn-more2"
+  },
+  {
+    "icon": "MdWorkHistory",
+    "title": "Improve Business Model",
+    "description": "We help identify the best ways to improve your business",
+    "link": "/learn-more3"
+  }
+]
